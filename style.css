@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Cabin';
+    background-color: #1a1b1c;
+}
+
+#tentacles {
+    width: 50px;
+}
+
+.header {
+    display: flex;
+    color: aliceblue;
+    padding: 1%;
+    align-items: center;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -10px;
+}
+
+.stats-container {
+    display: flex;
+    align-items: flex;
+}
+
+.stats-container :hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+.stats-card {
+    background-color: #a8b0bc;
+    border-radius: 7px;
+    padding: 1%;
+    margin: 1%;
+    width: 100%;
+    text-align: center;
+}
+
+#num-contributions,
+#total-raised,
+#num-games {
+    font-size: 50px;
+}
+
+#games-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.game-img {
+    width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #FFFFFF;
+}
+
+.game-card {
+    background-color: #a8b0bc;
+    padding: 1%;
+    margin: 1%;
+    width: 300px;
+    text-align: center;
+    border-radius: 7px;
+}
+
+.game-card:hover {
+    cursor: pointer;
+    box-shadow: 0 0 30px lightblue;
+}
+
+#button-container {
+    text-align: center;
+}
+
+button {
+    font-family: 'Cabin';
+    border: none;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 7px;
+}
+
+#description-container {
+    color: aliceblue;
+}
+
+p.section-intro,
+div.section-intro {
+    color: aliceblue;
+    text-align: center;
+}
+
+h1.section-head {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+}
+
+h1.section-head:before,
+h1.section-head:after {
+    content: '[';
+    display: inline-block;
+    position: relative;
+    top: 1px;
+    height: 100%;
+    font-size: 1.25em;
+    color: rgb(242, 90, 64);
+
+    transition: all 0.5s ease;
+}
+
+h1.section-head:after {
+    content: ']';
+}
+
+h1.section-head:hover:before {
+    transform: translateX(-5px);
+}
+
+h1.section-head:hover:after {
+    transform: translateX(5px);
+}
+
+#flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: baseline;
+    align-content: center;
+}
+
+#OurGamesBtn {
+    margin-left: 800px;
+    white-space: nowrap;
+    text-align: center;
+}
+
+#OurGamesBtn {
+    background-color: #a8b0bc;
+}
+
+#OurGamesBtn:hover {
+    background-color: white;
+}
