@@ -61,8 +61,8 @@ body {
     padding: 1%;
     margin: 1%;
     width: 300px;
-    text-align: center;
     border-radius: 7px;
+    text-align: center;
 }
 
 .game-card:hover {
@@ -77,8 +77,8 @@ body {
 button {
     font-family: 'Cabin';
     border: none;
-    padding: 1%;
     margin: 1%;
+    padding: 1%;
     border-radius: 7px;
 }
 
@@ -100,13 +100,13 @@ h1.section-head {
 
 h1.section-head:before,
 h1.section-head:after {
-    content: '[';
     display: inline-block;
+    content: '[';
     position: relative;
     top: 1px;
     height: 100%;
     font-size: 1.25em;
-    color: rgb(242, 90, 64);
+    color: rgb(223, 87, 63);
 
     transition: all 0.5s ease;
 }
