@@ -36,7 +36,10 @@ GIF created with LiceCap
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+My main challenge while completing the website was making it look more appealing. I have a difficult time thinking
+of how I want my website to look like so I implement different things and see what I like the most. This process
+is the most time-consuming part for me. Template literals was something I hadn't used before and that was something 
+I had to learn before I could use them in the website. 
 
 ## License
 
